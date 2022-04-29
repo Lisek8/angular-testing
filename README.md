@@ -18,7 +18,7 @@ it('should do something correctly when button is pressed', fakeAsync(() => {
 
 ## Test input - trigger validation messages
 ```
-it('should display validation emssage', () => {
+it('should display validation message', () => {
   const someElement = fixture.debugElement.query(By.css('[data-qa=some-input]'));
 
   someElement.nativeNode.value = 'banana';
@@ -32,7 +32,7 @@ it('should display validation emssage', () => {
 
 ## Test select input - trigger validation messages
 ```
-it('should display validation emssage', () => {
+it('should display validation message', () => {
   const someElement = fixture.debugElement.query(By.css('[data-qa=some-select-input]'));
 
   someElement.nativeNode.value = 'banana';

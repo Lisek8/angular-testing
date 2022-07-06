@@ -2,7 +2,7 @@
 
 ## Effect of the button click on the component
 
-```
+```ts
 it('should do something correctly when button is pressed', fakeAsync(() => {
   const someElement = fixture.debugElement.query(By.css('[data-qa=some-button]'));
 
@@ -16,7 +16,7 @@ it('should do something correctly when button is pressed', fakeAsync(() => {
 
 ## Test input - trigger validation messages
 
-```
+```ts
 it('should display validation message', () => {
   const someElement = fixture.debugElement.query(By.css('[data-qa=some-input]'));
 
@@ -31,7 +31,7 @@ it('should display validation message', () => {
 
 ## Test select input - trigger validation messages
 
-```
+```ts
 it('should display validation message', () => {
   const someElement = fixture.debugElement.query(By.css('[data-qa=some-select-input]'));
 
